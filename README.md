@@ -30,6 +30,13 @@ be replaced with raw Ozonetel API endpoints without adapting the aggregator.
 GitHub and Vercel login credentials are deployment tooling credentials, not app
 configuration. Never commit real secrets, `.env.local`, or `.vercel`.
 
+## Automatic deployments
+
+This GitHub repository is connected to the existing Vercel project
+`sunrooof-productivity-live`. Pushes to `main` automatically deploy to
+https://sunrooof-productivity-live.vercel.app/. Other branches produce preview
+deployments. Vercel team authentication remains enabled.
+
 ## Deploy
 
 Import this repository into Vercel as an Other project, with the repository root
