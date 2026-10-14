@@ -1,0 +1,9 @@
+.vercel/
+.env*
+!.env.example
+node_modules/
+.npm-cache/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
